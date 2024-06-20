@@ -1,0 +1,6 @@
+ATT = float(input('Введите ATT:'))
+COMP = float(input('Введите COMP:'))
+YDS = float(input('Введите YDS:'))
+TD = float(input('Введите TD:'))
+INT = float(input('Введите INT:'))
+print((((((COMP/ATT)-0.3)*5)+(((YDS/ATT)-3)*0.25)+((TD/ATT)*20)+2.375-((INT/ATT)*25))/6)*100)
